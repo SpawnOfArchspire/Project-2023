@@ -1,0 +1,180 @@
+2023-07-07T04:26:09.268-0400 DEBUG Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+2023-07-07T04:26:09.276-0400 DEBUG Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+2023-07-07T04:26:09.307-0400 INFO HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-07-07T04:26:09.309-0400 DEBUG HHH000206: hibernate.properties not found
+2023-07-07T04:26:09.471-0400 DEBUG Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+2023-07-07T04:26:09.471-0400 DEBUG Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+2023-07-07T04:26:09.476-0400 DEBUG Building session factory using provided StandardServiceRegistry
+2023-07-07T04:26:09.486-0400 DEBUG Resolving IdentifierGenerator instances will not use CDI as it was not configured
+2023-07-07T04:26:09.489-0400 DEBUG Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+2023-07-07T04:26:09.490-0400 DEBUG Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+2023-07-07T04:26:09.491-0400 DEBUG Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+2023-07-07T04:26:09.491-0400 DEBUG Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+2023-07-07T04:26:09.492-0400 DEBUG Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+2023-07-07T04:26:09.492-0400 DEBUG Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+2023-07-07T04:26:09.493-0400 DEBUG Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+2023-07-07T04:26:09.494-0400 DEBUG Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2023-07-07T04:26:09.494-0400 DEBUG Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+2023-07-07T04:26:09.495-0400 DEBUG Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+2023-07-07T04:26:09.495-0400 DEBUG Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2023-07-07T04:26:09.496-0400 DEBUG Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+2023-07-07T04:26:09.500-0400 DEBUG Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+2023-07-07T04:26:09.501-0400 DEBUG Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+2023-07-07T04:26:09.563-0400 DEBUG addDescriptor(FloatTypeDescriptor) replaced previous registration(DoubleTypeDescriptor)
+2023-07-07T04:26:09.571-0400 DEBUG Adding type registration boolean -> org.hibernate.type.BasicTypeReference@47f4e407
+2023-07-07T04:26:09.572-0400 DEBUG Adding type registration boolean -> org.hibernate.type.BasicTypeReference@47f4e407
+2023-07-07T04:26:09.572-0400 DEBUG Adding type registration java.lang.Boolean -> org.hibernate.type.BasicTypeReference@47f4e407
+2023-07-07T04:26:09.572-0400 DEBUG Adding type registration numeric_boolean -> org.hibernate.type.BasicTypeReference@2d1dee39
+2023-07-07T04:26:09.572-0400 DEBUG Adding type registration org.hibernate.type.NumericBooleanConverter -> org.hibernate.type.BasicTypeReference@2d1dee39
+2023-07-07T04:26:09.572-0400 DEBUG Adding type registration true_false -> org.hibernate.type.BasicTypeReference@48d5f34e
+2023-07-07T04:26:09.572-0400 DEBUG Adding type registration org.hibernate.type.TrueFalseConverter -> org.hibernate.type.BasicTypeReference@48d5f34e
+2023-07-07T04:26:09.572-0400 DEBUG Adding type registration yes_no -> org.hibernate.type.BasicTypeReference@fc258b1
+2023-07-07T04:26:09.572-0400 DEBUG Adding type registration org.hibernate.type.YesNoConverter -> org.hibernate.type.BasicTypeReference@fc258b1
+2023-07-07T04:26:09.572-0400 DEBUG Adding type registration byte -> org.hibernate.type.BasicTypeReference@6ff65192
+2023-07-07T04:26:09.572-0400 DEBUG Adding type registration byte -> org.hibernate.type.BasicTypeReference@6ff65192
+2023-07-07T04:26:09.572-0400 DEBUG Adding type registration java.lang.Byte -> org.hibernate.type.BasicTypeReference@6ff65192
+2023-07-07T04:26:09.572-0400 DEBUG Adding type registration binary -> org.hibernate.type.BasicTypeReference@2dd80673
+2023-07-07T04:26:09.572-0400 DEBUG Adding type registration byte[] -> org.hibernate.type.BasicTypeReference@2dd80673
+2023-07-07T04:26:09.572-0400 DEBUG Adding type registration [B -> org.hibernate.type.BasicTypeReference@2dd80673
+2023-07-07T04:26:09.573-0400 DEBUG Adding type registration binary_wrapper -> org.hibernate.type.BasicTypeReference@4af0df05
+2023-07-07T04:26:09.573-0400 DEBUG Adding type registration wrapper-binary -> org.hibernate.type.BasicTypeReference@4af0df05
+2023-07-07T04:26:09.573-0400 DEBUG Adding type registration Byte[] -> org.hibernate.type.BasicTypeReference@4af0df05
+2023-07-07T04:26:09.573-0400 DEBUG Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.BasicTypeReference@4af0df05
+2023-07-07T04:26:09.573-0400 DEBUG Adding type registration image -> org.hibernate.type.BasicTypeReference@57ea113a
+2023-07-07T04:26:09.573-0400 DEBUG Adding type registration blob -> org.hibernate.type.BasicTypeReference@acdb094
+2023-07-07T04:26:09.573-0400 DEBUG Adding type registration java.sql.Blob -> org.hibernate.type.BasicTypeReference@acdb094
+2023-07-07T04:26:09.573-0400 DEBUG Adding type registration materialized_blob -> org.hibernate.type.BasicTypeReference@674bd420
+2023-07-07T04:26:09.574-0400 DEBUG Adding type registration materialized_blob_wrapper -> org.hibernate.type.BasicTypeReference@2b0f373b
+2023-07-07T04:26:09.574-0400 DEBUG Adding type registration short -> org.hibernate.type.BasicTypeReference@2ceb80a1
+2023-07-07T04:26:09.574-0400 DEBUG Adding type registration short -> org.hibernate.type.BasicTypeReference@2ceb80a1
+2023-07-07T04:26:09.574-0400 DEBUG Adding type registration java.lang.Short -> org.hibernate.type.BasicTypeReference@2ceb80a1
+2023-07-07T04:26:09.574-0400 DEBUG Adding type registration integer -> org.hibernate.type.BasicTypeReference@4b45dcb8
+2023-07-07T04:26:09.574-0400 DEBUG Adding type registration int -> org.hibernate.type.BasicTypeReference@4b45dcb8
+2023-07-07T04:26:09.574-0400 DEBUG Adding type registration java.lang.Integer -> org.hibernate.type.BasicTypeReference@4b45dcb8
+2023-07-07T04:26:09.574-0400 DEBUG Adding type registration long -> org.hibernate.type.BasicTypeReference@7216fb24
+2023-07-07T04:26:09.574-0400 DEBUG Adding type registration long -> org.hibernate.type.BasicTypeReference@7216fb24
+2023-07-07T04:26:09.574-0400 DEBUG Adding type registration java.lang.Long -> org.hibernate.type.BasicTypeReference@7216fb24
+2023-07-07T04:26:09.575-0400 DEBUG Adding type registration float -> org.hibernate.type.BasicTypeReference@2072acb2
+2023-07-07T04:26:09.575-0400 DEBUG Adding type registration float -> org.hibernate.type.BasicTypeReference@2072acb2
+2023-07-07T04:26:09.575-0400 DEBUG Adding type registration java.lang.Float -> org.hibernate.type.BasicTypeReference@2072acb2
+2023-07-07T04:26:09.575-0400 DEBUG Adding type registration double -> org.hibernate.type.BasicTypeReference@50ecde95
+2023-07-07T04:26:09.575-0400 DEBUG Adding type registration double -> org.hibernate.type.BasicTypeReference@50ecde95
+2023-07-07T04:26:09.575-0400 DEBUG Adding type registration java.lang.Double -> org.hibernate.type.BasicTypeReference@50ecde95
+2023-07-07T04:26:09.575-0400 DEBUG Adding type registration big_integer -> org.hibernate.type.BasicTypeReference@35a9782c
+2023-07-07T04:26:09.575-0400 DEBUG Adding type registration java.math.BigInteger -> org.hibernate.type.BasicTypeReference@35a9782c
+2023-07-07T04:26:09.575-0400 DEBUG Adding type registration big_decimal -> org.hibernate.type.BasicTypeReference@70a36a66
+2023-07-07T04:26:09.575-0400 DEBUG Adding type registration java.math.BigDecimal -> org.hibernate.type.BasicTypeReference@70a36a66
+2023-07-07T04:26:09.575-0400 DEBUG Adding type registration character -> org.hibernate.type.BasicTypeReference@45815ffc
+2023-07-07T04:26:09.576-0400 DEBUG Adding type registration char -> org.hibernate.type.BasicTypeReference@45815ffc
+2023-07-07T04:26:09.576-0400 DEBUG Adding type registration java.lang.Character -> org.hibernate.type.BasicTypeReference@45815ffc
+2023-07-07T04:26:09.576-0400 DEBUG Adding type registration character_nchar -> org.hibernate.type.BasicTypeReference@732f29af
+2023-07-07T04:26:09.576-0400 DEBUG Adding type registration string -> org.hibernate.type.BasicTypeReference@d3957fe
+2023-07-07T04:26:09.576-0400 DEBUG Adding type registration java.lang.String -> org.hibernate.type.BasicTypeReference@d3957fe
+2023-07-07T04:26:09.576-0400 DEBUG Adding type registration nstring -> org.hibernate.type.BasicTypeReference@6622fc65
+2023-07-07T04:26:09.576-0400 DEBUG Adding type registration characters -> org.hibernate.type.BasicTypeReference@299321e2
+2023-07-07T04:26:09.576-0400 DEBUG Adding type registration char[] -> org.hibernate.type.BasicTypeReference@299321e2
+2023-07-07T04:26:09.576-0400 DEBUG Adding type registration [C -> org.hibernate.type.BasicTypeReference@299321e2
+2023-07-07T04:26:09.576-0400 DEBUG Adding type registration wrapper-characters -> org.hibernate.type.BasicTypeReference@23fb172e
+2023-07-07T04:26:09.576-0400 DEBUG Adding type registration [Ljava.lang.Character; -> org.hibernate.type.BasicTypeReference@23fb172e
+2023-07-07T04:26:09.576-0400 DEBUG Adding type registration Character[] -> org.hibernate.type.BasicTypeReference@23fb172e
+2023-07-07T04:26:09.577-0400 DEBUG Adding type registration text -> org.hibernate.type.BasicTypeReference@64ba3208
+2023-07-07T04:26:09.577-0400 DEBUG Adding type registration ntext -> org.hibernate.type.BasicTypeReference@158a3b2e
+2023-07-07T04:26:09.577-0400 DEBUG Adding type registration clob -> org.hibernate.type.BasicTypeReference@25a6944c
+2023-07-07T04:26:09.577-0400 DEBUG Adding type registration java.sql.Clob -> org.hibernate.type.BasicTypeReference@25a6944c
+2023-07-07T04:26:09.577-0400 DEBUG Adding type registration nclob -> org.hibernate.type.BasicTypeReference@5e1fa5b1
+2023-07-07T04:26:09.577-0400 DEBUG Adding type registration java.sql.NClob -> org.hibernate.type.BasicTypeReference@5e1fa5b1
+2023-07-07T04:26:09.577-0400 DEBUG Adding type registration materialized_clob -> org.hibernate.type.BasicTypeReference@6b00f608
+2023-07-07T04:26:09.577-0400 DEBUG Adding type registration materialized_clob_char_array -> org.hibernate.type.BasicTypeReference@2f17e30d
+2023-07-07T04:26:09.578-0400 DEBUG Adding type registration materialized_clob_character_array -> org.hibernate.type.BasicTypeReference@3e821657
+2023-07-07T04:26:09.578-0400 DEBUG Adding type registration materialized_nclob -> org.hibernate.type.BasicTypeReference@1d131e1b
+2023-07-07T04:26:09.578-0400 DEBUG Adding type registration materialized_nclob_character_array -> org.hibernate.type.BasicTypeReference@71cf1b07
+2023-07-07T04:26:09.578-0400 DEBUG Adding type registration materialized_nclob_char_array -> org.hibernate.type.BasicTypeReference@615091b8
+2023-07-07T04:26:09.578-0400 DEBUG Adding type registration Duration -> org.hibernate.type.BasicTypeReference@4fce136b
+2023-07-07T04:26:09.578-0400 DEBUG Adding type registration java.time.Duration -> org.hibernate.type.BasicTypeReference@4fce136b
+2023-07-07T04:26:09.578-0400 DEBUG Adding type registration LocalDateTime -> org.hibernate.type.BasicTypeReference@4aa83f4f
+2023-07-07T04:26:09.578-0400 DEBUG Adding type registration java.time.LocalDateTime -> org.hibernate.type.BasicTypeReference@4aa83f4f
+2023-07-07T04:26:09.578-0400 DEBUG Adding type registration LocalDate -> org.hibernate.type.BasicTypeReference@43b6123e
+2023-07-07T04:26:09.578-0400 DEBUG Adding type registration java.time.LocalDate -> org.hibernate.type.BasicTypeReference@43b6123e
+2023-07-07T04:26:09.578-0400 DEBUG Adding type registration LocalTime -> org.hibernate.type.BasicTypeReference@260e86a1
+2023-07-07T04:26:09.579-0400 DEBUG Adding type registration java.time.LocalTime -> org.hibernate.type.BasicTypeReference@260e86a1
+2023-07-07T04:26:09.579-0400 DEBUG Adding type registration OffsetDateTime -> org.hibernate.type.BasicTypeReference@19648c40
+2023-07-07T04:26:09.579-0400 DEBUG Adding type registration java.time.OffsetDateTime -> org.hibernate.type.BasicTypeReference@19648c40
+2023-07-07T04:26:09.579-0400 DEBUG Adding type registration OffsetDateTimeWithTimezone -> org.hibernate.type.BasicTypeReference@12bd8a64
+2023-07-07T04:26:09.579-0400 DEBUG Adding type registration OffsetDateTimeWithoutTimezone -> org.hibernate.type.BasicTypeReference@61e94def
+2023-07-07T04:26:09.579-0400 DEBUG Adding type registration OffsetTime -> org.hibernate.type.BasicTypeReference@3300f4fd
+2023-07-07T04:26:09.579-0400 DEBUG Adding type registration java.time.OffsetTime -> org.hibernate.type.BasicTypeReference@3300f4fd
+2023-07-07T04:26:09.579-0400 DEBUG Adding type registration ZonedDateTime -> org.hibernate.type.BasicTypeReference@ebb6851
+2023-07-07T04:26:09.579-0400 DEBUG Adding type registration java.time.ZonedDateTime -> org.hibernate.type.BasicTypeReference@ebb6851
+2023-07-07T04:26:09.579-0400 DEBUG Adding type registration ZonedDateTimeWithTimezone -> org.hibernate.type.BasicTypeReference@70ab2d48
+2023-07-07T04:26:09.580-0400 DEBUG Adding type registration ZonedDateTimeWithoutTimezone -> org.hibernate.type.BasicTypeReference@5b068087
+2023-07-07T04:26:09.580-0400 DEBUG Adding type registration date -> org.hibernate.type.BasicTypeReference@6f152006
+2023-07-07T04:26:09.580-0400 DEBUG Adding type registration java.sql.Date -> org.hibernate.type.BasicTypeReference@6f152006
+2023-07-07T04:26:09.580-0400 DEBUG Adding type registration time -> org.hibernate.type.BasicTypeReference@3a393455
+2023-07-07T04:26:09.580-0400 DEBUG Adding type registration java.sql.Time -> org.hibernate.type.BasicTypeReference@3a393455
+2023-07-07T04:26:09.580-0400 DEBUG Adding type registration timestamp -> org.hibernate.type.BasicTypeReference@13518f37
+2023-07-07T04:26:09.580-0400 DEBUG Adding type registration java.sql.Timestamp -> org.hibernate.type.BasicTypeReference@13518f37
+2023-07-07T04:26:09.580-0400 DEBUG Adding type registration java.util.Date -> org.hibernate.type.BasicTypeReference@13518f37
+2023-07-07T04:26:09.580-0400 DEBUG Adding type registration calendar -> org.hibernate.type.BasicTypeReference@7cbc3762
+2023-07-07T04:26:09.580-0400 DEBUG Adding type registration java.util.Calendar -> org.hibernate.type.BasicTypeReference@7cbc3762
+2023-07-07T04:26:09.580-0400 DEBUG Adding type registration java.util.GregorianCalendar -> org.hibernate.type.BasicTypeReference@7cbc3762
+2023-07-07T04:26:09.580-0400 DEBUG Adding type registration calendar_date -> org.hibernate.type.BasicTypeReference@3a6f2de3
+2023-07-07T04:26:09.580-0400 DEBUG Adding type registration calendar_time -> org.hibernate.type.BasicTypeReference@49872d67
+2023-07-07T04:26:09.580-0400 DEBUG Adding type registration instant -> org.hibernate.type.BasicTypeReference@56303b57
+2023-07-07T04:26:09.581-0400 DEBUG Adding type registration java.time.Instant -> org.hibernate.type.BasicTypeReference@56303b57
+2023-07-07T04:26:09.581-0400 DEBUG Adding type registration uuid -> org.hibernate.type.BasicTypeReference@4b2a01d4
+2023-07-07T04:26:09.581-0400 DEBUG Adding type registration java.util.UUID -> org.hibernate.type.BasicTypeReference@4b2a01d4
+2023-07-07T04:26:09.581-0400 DEBUG Adding type registration pg-uuid -> org.hibernate.type.BasicTypeReference@4b2a01d4
+2023-07-07T04:26:09.581-0400 DEBUG Adding type registration uuid-binary -> org.hibernate.type.BasicTypeReference@8692d67
+2023-07-07T04:26:09.581-0400 DEBUG Adding type registration uuid-char -> org.hibernate.type.BasicTypeReference@78f5c518
+2023-07-07T04:26:09.581-0400 DEBUG Adding type registration class -> org.hibernate.type.BasicTypeReference@2f48b3d2
+2023-07-07T04:26:09.581-0400 DEBUG Adding type registration java.lang.Class -> org.hibernate.type.BasicTypeReference@2f48b3d2
+2023-07-07T04:26:09.581-0400 DEBUG Adding type registration currency -> org.hibernate.type.BasicTypeReference@34f7234e
+2023-07-07T04:26:09.581-0400 DEBUG Adding type registration Currency -> org.hibernate.type.BasicTypeReference@34f7234e
+2023-07-07T04:26:09.581-0400 DEBUG Adding type registration java.util.Currency -> org.hibernate.type.BasicTypeReference@34f7234e
+2023-07-07T04:26:09.581-0400 DEBUG Adding type registration locale -> org.hibernate.type.BasicTypeReference@753432a2
+2023-07-07T04:26:09.581-0400 DEBUG Adding type registration java.util.Locale -> org.hibernate.type.BasicTypeReference@753432a2
+2023-07-07T04:26:09.581-0400 DEBUG Adding type registration serializable -> org.hibernate.type.BasicTypeReference@23bff419
+2023-07-07T04:26:09.581-0400 DEBUG Adding type registration java.io.Serializable -> org.hibernate.type.BasicTypeReference@23bff419
+2023-07-07T04:26:09.582-0400 DEBUG Adding type registration timezone -> org.hibernate.type.BasicTypeReference@4983159f
+2023-07-07T04:26:09.582-0400 DEBUG Adding type registration java.util.TimeZone -> org.hibernate.type.BasicTypeReference@4983159f
+2023-07-07T04:26:09.582-0400 DEBUG Adding type registration ZoneOffset -> org.hibernate.type.BasicTypeReference@44e3a2b2
+2023-07-07T04:26:09.582-0400 DEBUG Adding type registration java.time.ZoneOffset -> org.hibernate.type.BasicTypeReference@44e3a2b2
+2023-07-07T04:26:09.582-0400 DEBUG Adding type registration url -> org.hibernate.type.BasicTypeReference@101639ae
+2023-07-07T04:26:09.582-0400 DEBUG Adding type registration java.net.URL -> org.hibernate.type.BasicTypeReference@101639ae
+2023-07-07T04:26:09.582-0400 DEBUG Adding type registration row_version -> org.hibernate.type.BasicTypeReference@4c550889
+2023-07-07T04:26:09.585-0400 DEBUG Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@2a5b3fee
+2023-07-07T04:26:09.586-0400 DEBUG Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@2a5b3fee
+2023-07-07T04:26:09.587-0400 DEBUG Adding type registration object -> org.hibernate.type.JavaObjectType@77d2e85
+2023-07-07T04:26:09.588-0400 DEBUG Adding type registration java.lang.Object -> org.hibernate.type.JavaObjectType@77d2e85
+2023-07-07T04:26:09.588-0400 DEBUG Adding type registration null -> org.hibernate.type.NullType@3bd418e4
+2023-07-07T04:26:09.588-0400 DEBUG Adding type registration imm_date -> org.hibernate.type.BasicTypeReference@544820b7
+2023-07-07T04:26:09.588-0400 DEBUG Adding type registration imm_time -> org.hibernate.type.BasicTypeReference@6b98a075
+2023-07-07T04:26:09.588-0400 DEBUG Adding type registration imm_timestamp -> org.hibernate.type.BasicTypeReference@2e61d218
+2023-07-07T04:26:09.588-0400 DEBUG Adding type registration imm_calendar -> org.hibernate.type.BasicTypeReference@3569fc08
+2023-07-07T04:26:09.589-0400 DEBUG Adding type registration imm_calendar_date -> org.hibernate.type.BasicTypeReference@20b12f8a
+2023-07-07T04:26:09.589-0400 DEBUG Adding type registration imm_calendar_time -> org.hibernate.type.BasicTypeReference@e84a8e1
+2023-07-07T04:26:09.589-0400 DEBUG Adding type registration imm_binary -> org.hibernate.type.BasicTypeReference@2e554a3b
+2023-07-07T04:26:09.589-0400 DEBUG Adding type registration imm_serializable -> org.hibernate.type.BasicTypeReference@54a67a45
+2023-07-07T04:26:09.611-0400 WARN HHH10001002: Using built-in connection pool (not intended for production use)
+2023-07-07T04:26:09.616-0400 INFO HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-07-07T04:26:09.616-0400 INFO HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/musicrate]
+2023-07-07T04:26:09.616-0400 INFO HHH10001001: Connection properties: {password=root, user=root}
+2023-07-07T04:26:09.616-0400 INFO HHH10001003: Autocommit mode: false
+2023-07-07T04:26:09.619-0400 DEBUG Initializing Connection pool with 1 Connections
+2023-07-07T04:26:09.619-0400 INFO HHH10001115: Connection pool size: 20 (min=1)
+2023-07-07T04:26:09.776-0400 DEBUG Database ->
+       name : PostgreSQL
+    version : 15.3 (Debian 15.3-1.pgdg120+1)
+      major : 15
+      minor : 3
+2023-07-07T04:26:09.776-0400 DEBUG Driver ->
+       name : PostgreSQL JDBC Driver
+    version : 42.2.8
+      major : 42
+      minor : 2
+2023-07-07T04:26:09.776-0400 DEBUG JDBC version : 4.2
+2023-07-07T04:26:09.814-0400 DEBUG JDBC driver metadata reported database stores quoted identifiers in neither upper, lower nor mixed case
+2023-07-07T04:26:09.828-0400 DEBUG addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@5fe8b721) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@551a20d6)
+2023-07-07T04:26:09.834-0400 DEBUG addDescriptor(2004, BlobTypeDescriptor(BLOB_BINDING)) replaced previous registration(BlobTypeDescriptor(DEFAULT))
+2023-07-07T04:26:09.835-0400 DEBUG addDescriptor(2005, ClobTypeDescriptor(CLOB_BINDING)) replaced previous registration(ClobTypeDescriptor(DEFAULT))
+2023-07-07T04:26:09.835-0400 DEBUG addDescriptor(3003, TimestampUtcDescriptor) replaced previous registration(TimestampUtcDescriptor)
